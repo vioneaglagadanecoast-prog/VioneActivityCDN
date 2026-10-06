@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CDN Lab - Vione Benedict C. Aglagadan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo"><div class="logo-icon">☁</div>CDN Lab</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#technology">Technology</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="network">
+      <div class="globe"></div>
+      <div class="line one"></div><div class="line two"></div>
+      <div class="line three"></div><div class="line four"></div>
+      <div class="node one"></div><div class="node two"></div>
+      <div class="node three"></div><div class="node four"></div>
+      <div class="node five"></div>
+    </div>
+    <div class="hero-content">
+      <h1>CDN Lab</h1>
+      <h2>Faster Access. A More <span>Connected</span> World.</h2>
+      <p>This website demonstrates how a Content Delivery Network distributes website content through servers located around the world, helping users access websites faster and more reliably.</p>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature"><div class="feature-icon">🌐</div><div><h3>Global Reach</h3><p>CDNs store and distribute website content through multiple locations around the world.</p></div></div>
+    <div class="feature"><div class="feature-icon">⚡</div><div><h3>Faster Performance</h3><p>Users can receive content from a nearby edge server, reducing the distance data has to travel.</p></div></div>
+    <div class="feature"><div class="feature-icon">🛡</div><div><h3>More Reliable</h3><p>A CDN reduces the workload on the origin server and helps websites remain available to users.</p></div></div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>How a CDN Works</h2>
+    <p>A Content Delivery Network is a collection of distributed servers that cache website files closer to users. When a visitor requests a page, the CDN can provide cached content from an edge server instead of contacting the original server every time.</p>
+    <div class="cards">
+      <div class="card"><h3>Cache Hit</h3><p>A cache hit happens when the requested content is already stored on the CDN's edge server. The CDN can immediately return the content without contacting the origin server.</p></div>
+      <div class="card"><h3>Origin Fetch</h3><p>An origin fetch happens when the requested content is not available in the edge cache. The CDN contacts the origin server, retrieves the content, and can then cache it.</p></div>
+      <div class="card" id="technology"><h3>Edge Server</h3><p>Edge servers are distributed across different geographic locations. They allow users to receive content from a location closer to them.</p></div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <h2>Vione Benedict C. Aglagadan</h2>
+    <div id="timestamp">Loading timestamp...</div>
+    <div class="footer-line"></div>
+    <p>CDN Verification Laboratory</p>
+    <div class="badge">☁ Powered by a Global CDN</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
